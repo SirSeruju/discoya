@@ -1,0 +1,11 @@
+discord_settings = {
+    'token': 'BOT_TOKEN',
+    'bot': 'BOT_NAME',
+    'id': BOT_ID,
+    'prefix': 'ya!'
+}
+
+yandex_settings = {
+    "login": "YANDEX_LOGIN",
+    "password": "YANDEX_PASSWORD"
+}
