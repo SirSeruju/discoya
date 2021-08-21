@@ -27,7 +27,11 @@ def add(bot, isValidUrl, urlToPlaylist, play):
             return
         if ctx.voice_client:
             await ctx.voice_client.disconnect()
-        voice = await ctx.author.voice.channel.connect()
+        try:
+            voice = await ctx.author.voice.channel.connect()
+        except Exception as e:
+            await ctx.voice_client.disconnect()
+            voice = await ctx.author.voice.channel.connect()
     
         if not voice.is_playing():
             bot.playlists[ctx.message.guild.id] = playlist

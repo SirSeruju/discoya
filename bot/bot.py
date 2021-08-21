@@ -13,7 +13,7 @@ def initBot(bot, isValidUrl, urlToPlaylist):
             for track in bot.playlists[sId]:
                 event.clear()
                 try:
-                    voice.play(FFmpegOpusAudio(bot.playlists[sId][0]), after=lambda x: event.set())
+                    voice.play(FFmpegOpusAudio(bot.playlists[sId][0]()), after=lambda x: event.set())
                 except Exception as e:
                     return
                 event.wait()
