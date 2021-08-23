@@ -3,7 +3,7 @@ def add(bot, isValidUrl, urlToPlaylist):
         name='add',
         pass_context=True,
         description="Add the playlist to the queue.",
-        usage="https://music.yandex.ru/album/xxxxx",
+        usage="[https://music.yandex.ru/album/xxxxx|https://music.yandex.ru/users/xxxxx/playlists/xxxxx]",
     )
     async def botAdd(ctx, *args):
         if len(args) != 1:

@@ -6,7 +6,7 @@ def add(bot, isValidUrl, urlToPlaylist, play):
         name='play',
         pass_context=True,
         description="Play the playlist with link.",
-        usage="https://music.yandex.ru/album/xxxxx",
+        usage="[https://music.yandex.ru/album/xxxxx|https://music.yandex.ru/users/xxxxx/playlists/xxxxx]",
     )
     async def botPlay(ctx, *args):
         if len(args) != 1:
