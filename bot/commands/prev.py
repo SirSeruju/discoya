@@ -1,8 +1,8 @@
-def add(bot):
+def add(bot, translation):
     @bot.command(
         name='prev',
         pass_context=True,
-        description="Previous composition in the playlist.",
+        description=translation["description"],
     )
     async def botPrev(ctx):
         sId = ctx.message.guild.id
@@ -11,4 +11,4 @@ def add(bot):
             bot.playlists[sId] = [bot.playlists[sId][-1]] + bot.playlists[sId][:-1]
             ctx.voice_client.stop()
         else:
-            await ctx.send('You have to be connected to the same voice channel to prev.')
+            await ctx.send(translation["not_connected_to_same_channel_error"])

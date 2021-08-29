@@ -1,5 +1,6 @@
 from discord.ext import commands
 from config import discord_settings, yandex_settings
+from translation import translation
 from yandex_music import Client
 from bot.bot import initBot
 from pyparsing import *
@@ -57,5 +58,5 @@ if __name__ == "__main__":
             pass
 
     bot = commands.Bot(command_prefix = discord_settings['prefix'])
-    initBot(bot, isValidUrl, urlToPlaylist)
+    initBot(bot, translation, isValidUrl, urlToPlaylist)
     bot.run(discord_settings['token'])
