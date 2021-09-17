@@ -1,4 +1,5 @@
 # discoya
+![logo](logo.svg) 
 Discord bot for playing Yandex.Music playlists
 
 Make sure you installed ffmpeg

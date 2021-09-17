@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="30.236826mm"
+   height="18.132538mm"
+   viewBox="0 0 30.236826 18.132538"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-intersection-paths="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="3.1120041"
+     inkscape:cx="92.384198"
+     inkscape:cy="37.435684"
+     inkscape:window-width="1914"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-160.38111,-84.468354)">
+    <g
+       id="g1782">
+      <path
+         id="path13222-9"
+         style="fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:2.6529;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stop-color:#000000"
+         d="m 169.54653,89.654801 a 3.9160031,3.8688092 0 0 1 1.958,-3.350487 3.9160031,3.8688092 0 0 1 3.916,0 m -5.874,3.350489 v 7.737618 m 0,-2e-6 a 3.9160031,3.8688092 0 0 1 -2.41741,3.574311 3.9160031,3.8688092 0 0 1 -4.26762,-0.83865 3.9160031,3.8688092 0 0 1 -0.84888,-4.21619 3.9160031,3.8688092 0 0 1 3.61791,-2.388279" />
+      <text
+         xml:space="preserve"
+         style="font-size:16.9038px;line-height:1.25;font-family:'Fredoka One';-inkscape-font-specification:'Fredoka One';fill:#000000;stroke-width:0.264122;fill-opacity:1"
+         x="170.66887"
+         y="103.19098"
+         id="text2696-3"
+         transform="scale(1.0060808,0.99395596)"><tspan
+           sodipodi:role="line"
+           id="tspan2694-6"
+           style="font-size:16.9038px;fill:#000000;stroke-width:0.264122;fill-opacity:1"
+           x="170.66887"
+           y="103.19098">Ya</tspan></text>
+    </g>
+  </g>
+</svg>
