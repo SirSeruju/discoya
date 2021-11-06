@@ -1,7 +1,9 @@
 # discoya
-![logo](logo.svg) 
-Discord bot for playing Yandex.Music playlists
 
-Make sure you installed ffmpeg
+## Description
+Discord bot for playing Yandex.Music playlists and tracks
 
-Rename config.py.template to config.py and change settings in this
+## Run
+Create .env file or edit docker-compose.yml or src/config.py, then
+
+    docker-compose up -d
