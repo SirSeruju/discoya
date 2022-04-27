@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  bot:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-04-27T20:43:35.917931023+03:00"
+    description: A discoya Helm chart for Kubernetes
+    digest: 9145213ec6adc80e0fe999dc9d17a71d95a57af1b2fc43ea9223e708b49c73c6
+    name: bot
+    type: application
+    urls:
+    - bot-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-27T20:43:35.917330786+03:00"
